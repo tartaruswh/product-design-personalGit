@@ -1,0 +1,43 @@
+PostAddProductMember0:
+  Method: Post
+  Url: /v1/baseinfo/productMember
+  Headers:
+    Content-Type: application/json
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40
+  Params: {}
+  Body:
+    parentId:
+    parentType:
+    memberName:
+    memberOrder:
+
+GetQueryProductMember1:
+  Method: Get
+  Url: /v1/baseinfo/productMember/productMember
+  Headers:
+    Content-Type: x-www-form-urlencoded
+    User-Agent: Windows 10
+  Params:
+    id:
+  Body: {}
+
+PutChangeProductMemberName2:
+  Method: Put
+  Url: /v1/baseinfo/productMember
+  Headers:
+    Content-Type: application/json
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40
+  Params: {}
+  Body:
+    id:
+    memberName:
+
+DeleteDeleteProductMember3:
+  Method: Delete
+  Url: /v1/baseinfo/productMember
+  Headers:
+    Content-Type:
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40
+  Params: {}
+  Body: {}
+

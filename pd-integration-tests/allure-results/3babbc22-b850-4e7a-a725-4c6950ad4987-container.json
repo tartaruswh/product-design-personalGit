@@ -1,0 +1,1 @@
+{"uuid":"3babbc22-b850-4e7a-a725-4c6950ad4987","name":"workBookInterfaceAutoTest","children":["7b3294ae-b827-4174-bda7-692d2c00a1b0"],"befores":[{"name":"init","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1638250647719,"stop":1638250647728}],"afters":[],"start":1638250647694,"stop":1638250652175}

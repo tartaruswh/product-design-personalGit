@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+swagger:
+  production: false
+  basic:
+    enable: true
+    username: admin
+    password: 123456
+http:
+  maxTotal: 100
+  defaultMaxPerRoute: 20
+  connectTimeout: 1000
+  connectionRequestTimeout: 500
+  socketTimeout: 1200000
+  staleConnectionCheckEnabled: true
+
+
+
+

@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    # 启动服务时默认的环境
+    active: local
+
+server:
+  port: 8092
+  servlet:
+    context-path: /v1/workbook
+
+fdfs:
+  so-timeout: 3000
+  connect-timeout: 1000
+  thumb-image:
+    width: 60
+    height: 60
+  tracker-list:
+  - 10.10.41.3:22122

@@ -1,0 +1,160 @@
+#正常新增
+PostAddProductSequence0:
+  Body:
+    parentId: 0
+    parentType: ROOT
+    memberName: productSequenceName1
+
+#正常新增
+PostAddProductSequence1:
+  Body:
+    parentId: 0
+    parentType: ROOT
+    memberName: productSequenceName2
+
+#超时验证
+PostAddProductSequenceTimeOut2:
+  Body:
+    parentId: 0
+    parentType: ROOT
+    memberName: 超时验证
+
+#名称长度等于最大边界值验证
+PostAddProductSequenceSurpassMaxBoundaryValue3:
+  Body:
+    parentId: 0
+    parentType: ROOT
+    memberName: 产品名称超长验证产品名称超长验证产品名称超长验证产品名称超长验证产品名称超长验证产品名称超长验证产51
+
+#名称长度超过最大边界值验证
+PostAddProductSequenceEqualMaxBoundaryValue4:
+  Body:
+    parentId: 0
+    parentType: ROOT
+    memberName: 产品名称超长验证产品名称超长验证产品名称超长验证产品名称超长验证产品名称超长验证产品名称超长验证50
+
+#同名新增验证
+PostAddProductSequenceSameName5:
+  Body:
+    parentId: 0
+    parentType: ROOT
+    memberName: 同名新增
+
+#新增名称为空
+PostAddProductSequenceNullOrSpaceName6:
+  Body:
+    parentId: 0
+    parentType: ROOT
+    memberName: ""
+
+#新增名称为空格
+PostAddProductSequenceNullOrSpaceName7:
+  Body:
+    parentId: 0
+    parentType: ROOT
+    memberName: "    "
+
+#新增父级参数类型不存在
+PostAddProSeqParTypeOrIdNotExist8:
+  Body:
+    parentId: 0
+    parentType: "TEST"
+    memberName: 验证父级参数类型不存在
+
+#新增父级参数id不存在
+PostAddProSeqParTypeOrIdNotExist9:
+  Body:
+    parentId: 11
+    parentType: ROOT
+    memberName: 验证父级参数id不存在
+
+#父级类型不能为空
+PostAddProSeqParTypeNotBeNull10:
+  Body:
+    parentId: 0
+    parentType:
+    memberName: 父级类型为空验证
+#父级Id不能为空
+PostAddProSeqParIdNotBeNull11:
+  Body:
+    parentId:
+    parentType: ROOT
+    memberName: 父级Id为空验证
+
+#新增产品序列非必填项为空
+PostAddProSeqNotMustInput12:
+  Body:
+    parentId: 0
+    parentType: ROOT
+    memberName: 非必填项为空验证
+    iconUrl: ""
+    businessCode: ""
+
+#PostAddProductLine:
+#  Body:
+#    parentId:
+#    parentType: PRODUCT_SEQIENCE
+#    memberName:
+#    memberOrder:
+#
+#PostAddProductLine:
+#  Body:
+#    parentId:
+#    parentType: PRODUCT_SEQIENCE
+#    memberName:
+#    memberOrder:
+#
+#PostAddTechnologyStage:
+#  Body:
+#    parentId:
+#    parentType: PRODUCT_LINE
+#    memberName:
+#    memberOrder:
+#
+#PostAddTechnologyStage:
+#  Body:
+#    parentId:
+#    parentType: PRODUCT_LINE
+#    memberName:
+#    memberOrder:
+#
+#PostAddMonomer:
+#  Body:
+#    parentId:
+#    parentType: TECHNOLOGY_STAGE
+#    memberName:
+#    memberOrder:
+#
+#PostAddMonomer:
+#  Body:
+#    parentId:
+#    parentType: TECHNOLOGY_STAGE
+#    memberName:
+#    memberOrder:
+#
+#PostAddMonomerType:
+#  Body:
+#    parentId:
+#    parentType: MONOMER
+#    memberName:
+#    memberOrder:
+#
+#PostAddMonomerType:
+#  Body:
+#    parentId:
+#    parentType: MONOMER
+#    memberName:
+#    memberOrder:
+#
+#PutChangeProductMemberName:
+#  Body:
+#    id:
+#    memberName:
+#
+#DeleteProductSequence:
+#  requestAddressConnection:
+#
+#GetProductMemberById12:
+#  Params:
+#    id:
+
